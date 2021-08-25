@@ -22,7 +22,7 @@ const LanguageConvert = ({ text, language}) => {
                   q: debouncedText,
                   target: language.value,
                   format: 'text',
-                  key: 'AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM'
+                  key: 'AIzaSyC__HE725SNsFo_MTzDJiHv9ZWujVSsEms'
               }  
             });
             setTranslated(data.data.translations[0].translatedText);
